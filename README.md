@@ -1,7 +1,7 @@
 # guia-09
 Complejidad
 
-##Problema 01
+## Problema 01
 Suponga que cada renglón de un arreglo A de NxN posee valores 1 y 0 de tal modo que en cualquier renglón de A todos los 1 van antes de que los 0.  
 Escriba un método que permita determinar el renglón de A que contiene la mayor cantidad de unos
 -	Ejemplo: resultado i=2 
@@ -17,7 +17,7 @@ Escriba un método que permita determinar el renglón de A que contiene la mayor
 Escribir en java, dos soluciones, una en la clase Solucion1, y otra en la clase Solucion2 para este problema, una con complejidad O(n) y otra con complejidad mayor ( por ejemplo  O(n2)).
 Ejecutar pruebas y realizar un análisis empírico para verificar que los tiempos de ejecución crecen según la complejidad estimada.
 
-##Problema 02
+## Problema 02
 
 Un arreglo A contiene n-1 enteros únicos en el intervalo [0, n-1]; esto es hay un número de este intervalo que no está en A.
 o	Ejemplo 
@@ -32,7 +32,7 @@ Indice	0	1	2	3
 Escribir en java, dos soluciones, una en la clase Solucion1, y otra en la clase Solucion2 para este problema, una con complejidad O(n) y otra con complejidad mayor ( por ejemplo  O(n2)).
 Ejecutar pruebas y realizar un análisis empírico
 
-##Problema 03
+## Problema 03
 
 Dada una secuencia de enteros positivos y negativos encontrar cual es la subsecuencia de suma máxima y calcular el resultado de dicha suma
 De esta manera debemos recorrer el arreglo de forma tal de encontrar un sub arreglo cuyo valor de la  de Ai hasta Aj se máximo.
@@ -43,7 +43,7 @@ Ejemplo:
 Escribir en java, dos soluciones, una en la clase Solucion1, y otra en la clase Solucion2 para este problema, una con complejidad O(n) y otra con complejidad mayor ( por ejemplo  O(n2)).
 Ejecutar pruebas y realizar un análisis empírico
 
-##Problema 04
+## Problema 04
 Determinar la complejidad de los siguientes métodos
 
 ```java
@@ -89,8 +89,8 @@ Determinar la complejidad de los siguientes métodos
 		}
 	}
 ```
-##Problema 05
-###a.	¿Cuál es el propósito del siguiente algoritmo? Analizar el tiempo de ejecución en el peor caso y expresarlo en la notación “O”.
+## Problema 05
+### a.	¿Cuál es el propósito del siguiente algoritmo? Analizar el tiempo de ejecución en el peor caso y expresarlo en la notación “O”.
 
 ```java
 public static long f1(int a, int n){
@@ -101,7 +101,7 @@ public static long f1(int a, int n){
 		return b;
 	}
 ```
-###b.	¿Cuál es el propósito del siguiente algoritmo? Analizar el tiempo de ejecución en el peor caso y expresarlo en la notación “O”.
+### b.	¿Cuál es el propósito del siguiente algoritmo? Analizar el tiempo de ejecución en el peor caso y expresarlo en la notación “O”.
 
 ```java
 	public static long f2(int a, int n){
