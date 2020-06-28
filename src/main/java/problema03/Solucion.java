@@ -1,6 +1,8 @@
 package problema03;
 
+import java.util.ArrayList;
+
 public interface Solucion {
 
-	public SecuenciaMaxima subsecuenciaMaxima(Secuencia m);
+	public ArrayList<Integer> subsecuenciaMaxima(Secuencia m);
 }

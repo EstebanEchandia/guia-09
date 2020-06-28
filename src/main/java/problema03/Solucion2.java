@@ -1,8 +1,10 @@
 package problema03;
 
+import java.util.ArrayList;
+
 public class Solucion2 implements Solucion{
 
-	public SecuenciaMaxima subsecuenciaMaxima(Secuencia m) {
-		return new SecuenciaMaxima();
+	public ArrayList<Integer> subsecuenciaMaxima(Secuencia m) {
+		return new ArrayList<Integer>();
 	}
 }

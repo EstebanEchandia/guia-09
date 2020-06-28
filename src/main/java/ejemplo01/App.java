@@ -6,8 +6,8 @@ public class App {
 
 		Registro r = new Registro();
 
-		r.usarCalculo1();
-//		r.usarCalculo2();
+	//	r.usarCalculo1();
+		r.usarCalculo2();
 		
 		r.generateRandomArray(10);
 		r.calcualrPromedios();
